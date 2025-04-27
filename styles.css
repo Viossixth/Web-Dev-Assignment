@@ -460,3 +460,42 @@ footer{
 footer p{
     text-align: center;
 }
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+  }
+
+  .nav-links-container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin: 0 1 rem;
+  }
+  
+  
+  .contact-info {
+    display: flex;
+    gap: 30px; /* Space between contact items */
+    text-align: center;
+  }
+  
+  .contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .contact-info img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+  }

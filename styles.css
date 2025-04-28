@@ -418,7 +418,8 @@ section{
     text-align: center;
 }
 .service-1container{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
     height: 100%;
 }
 
@@ -475,6 +476,9 @@ section{
 .email-icon{
     height: 2.5rem;
 }
+
+
+
 /*Pages Section*/
 
 #Pages{
@@ -561,3 +565,15 @@ nav {
     font-size: 16px;
     color: #555;
   }
+
+  #footer-telephone:hover {
+    transform: scale(1.05);
+}
+
+#footer-mail:hover {
+    transform: scale(1.05);
+}
+
+#footer-location:hover {
+    transform: scale(1.05);
+}
